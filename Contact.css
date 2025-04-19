@@ -8,14 +8,18 @@ body {
     }
       
     nav {
-    text-align: center;
-    background: rgb(80,188,213);
-    color:white;
-    padding: 1rem;
-    border-radius: 10px;
-    display:flex;
-    flex-direction:column;;
-    justify-content:space-between;
+        text-align: center;
+        background:rgb(80,188,213);
+        color:white;
+        padding: 1rem;
+        border-radius: 10px;
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-start;
+    }
+    nav img{
+        height: 150px;
+        margin-right:30rem;
     }
     
     nav ul{
@@ -46,7 +50,7 @@ body {
     
     li {
     margin: 0.5rem 0;
-    padding: 1rem;
+    padding: 3rem;
     border-radius: 5px;
     color:white;
     }
