@@ -56,13 +56,16 @@ body {
     }
     
     #aboutSection {
-        display: none;
         background: url('medical-equipment-with-copy-space.jpg') no-repeat center center;
         background-size: cover;
         padding: 2rem;
         color: white; /* Or use a light text shadow for readability */
         min-height: 100vh;
         border-radius: 10px;
+      }
+      #aboutSection h1{
+        color:rgb(104,101,101);
+        font-weight: bold;;
       }
       .About{
         color:gray;
