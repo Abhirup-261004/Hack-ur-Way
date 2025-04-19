@@ -6,8 +6,8 @@ color: #333;
 margin: 0;
 padding: 1rem;
 }
-  
 nav {
+height:120px;
 text-align: center;
 background:rgb(80,188,213);
 color:white;
@@ -16,9 +16,10 @@ border-radius: 10px;
 display:flex;
 flex-direction:row;
 justify-content:flex-start;
+align-items:center;
 }
 nav img{
-    height: 150px;
+    height: 110px;
     margin-right: 30rem;
 } 
 
@@ -33,16 +34,20 @@ nav ul a{
     color:white;
     font-size:larger;
     font-weight: bold;
+    transition: font-size 0.3s ease;
 }
-
+nav ul a:hover{
+    font-size: 1.4rem;
+}
 main {
 max-width: 600px;
 margin: 2rem auto;
-background: white;
+background: rgb(80,188,213);
 padding: 2rem;
 border-radius: 10px;
-box-shadow: 0 0 10px #ccc;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
+
 
 form label {
 display: block;
