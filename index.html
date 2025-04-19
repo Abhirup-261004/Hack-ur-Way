@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Care Ease</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <div>
+            <h2>Care Ease</h2>
+        </div>
+        <div>
+            <ul>
+                <li>Reminder</li>
+                <li>Appointment</li>
+                <li>Contact</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+        
+    </nav>    
+  </header>
+
+  <main>
+    <section>
+      <h2>Add Reminder</h2>
+      <form id="reminderForm">
+        <label>Type:
+          <select id="type">
+            <option value="Medicine">Medicine</option>
+            <option value="Appointment">Appointment</option>
+          </select>
+        </label>
+        <label>Title:
+          <input type="text" id="title" required />
+        </label>
+        <label>Time:
+          <input type="time" id="time" required />
+        </label>
+        <button type="submit">Add Reminder</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Today's Reminders</h2>
+      <ul id="reminderList"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
