@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reminders</title>
+  <link rel="stylesheet" href="reminders.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <div>
+            <img src="CareEase-removebg-preview.png" alt="">
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="missedNotifications.html">Missed Notifications</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contacts</a>
+                </li>
+                <li>
+                    <a href="AboutUs.html">About</a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>    
+  </header>
+
+  <main id="reminderSection">
+    <section >
+      <h2>Add Reminder</h2>
+      <form id="reminderForm">
+        <label>Type:
+          <select id="type">
+            <option value="Medicine">Medicine</option>
+            <option value="Appointment">Appointment</option>
+          </select>
+        </label>
+        <label>Title:
+          <input type="text" id="title" required />
+        </label>
+        <label>Time:
+          <input type="time" id="time" required />
+        </label>
+        <button type="submit">Add Reminder</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Today's Reminders</h2>
+      <ul id="reminderList"></ul>
+    </section>
+  </main>
+
+
+  <script src="reminders.js"></script>
+</body>
+</html>
