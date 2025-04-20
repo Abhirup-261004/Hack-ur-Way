@@ -5,8 +5,18 @@ body {
     color: #333;
     margin: 0;
     padding: 1rem;
+    background-image: url('medical-equipment-with-copy-space.jpg');
+    background-repeat: repeat-x;            /* repeat horizontally */
+    background-position: 0 0;               /* start position */
+    background-size: auto 100%;
+    z-index: -1;             /* scale height to full viewport */
+    animation: slideBg 30s linear infinite;
     }
-      
+    @keyframes slideBg {
+      from { background-position:    0    0; }
+      to   { background-position: -1920px 0; }
+    }
+    
     nav {
       height:120px;
         text-align: center;
@@ -79,4 +89,13 @@ body {
         font-size: medium;
         font-weight: bold;
         padding-top: 100px;
+      }
+
+      footer {
+        background: rgb(80,188,213);
+        color:white;
+        text-align: center;
+        padding: 1.5rem 2rem;
+        border-radius: 10px;
+        font-weight: bold;
       }
