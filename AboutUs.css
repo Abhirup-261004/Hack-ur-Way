@@ -80,3 +80,12 @@ body {
         font-weight: bold;
         padding-top: 100px;
       }
+
+      footer {
+        background: rgb(80,188,213);
+        color:white;
+        text-align: center;
+        padding: 1.5rem 2rem;
+        border-radius: 10px;
+        font-weight: bold;
+      }

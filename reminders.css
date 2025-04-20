@@ -72,3 +72,12 @@ padding: 3rem;
 border-radius: 5px;
 color:white;
 }
+
+footer {
+    background: rgb(80,188,213);
+    color:white;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    font-weight: bold;
+  }
