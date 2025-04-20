@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    color:white;
+    background: #f4f8fb;
+    color: #333;
+    margin: 0;
+    padding: 1rem;
+    }
+    nav {
+    height:120px;
+    text-align: center;
+    background:rgb(80,188,213);
+    color:white;
+    padding: 1rem;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    }
+    nav img{
+        height: 110px;
+        margin-right: 25rem;
+    } 
+    
+    nav ul{
+        display:flex;
+        gap: 5.5em;
+        justify-content:space-evenly;
+        list-style-type: none;
+    }
+    
+    nav ul a{
+        text-decoration:none;
+        color:white;
+        font-size:larger;
+        font-weight: bold;
+        transition: font-size 0.3s ease;
+    }
+    nav ul a:hover{
+        font-size: 1.3rem;
+    }
+
+    /* Hero */
+    .hero {
+        background: url('medical-equipment-with-copy-space.jpg') center/cover no-repeat;
+        color: #000;
+        text-align: center;
+        padding: 6rem 2rem;
+        position: relative;
+      }
+      .hero::after {
+        content: '';
+        position: absolute; top: 0; left: 0;
+        width: 100%; height: 100%;
+        background: rgba(0,0,0,0.4);
+        z-index:-1;
+      }
+      .hero-content {
+        position: relative;
+        max-width: 600px;
+        margin: 0 auto;
+        z-index:0;
+      }
+      .hero h1 { 
+        font-size: 2.5rem; margin-bottom: 1rem;
+     }
+      .hero p {
+         font-size: 1.1rem; margin-bottom: 2rem;
+     }
+     
+      .btn {
+        text-decoration:none;
+        display: inline-block;
+        background: #ffb74d;
+        color: #333;
+        padding: .75rem 1.5rem;
+        border-radius: 4px;
+        font-weight: bold;
+        transition: background .2s;
+      }
+      .btn:hover { background: #ffa726; }
+  
+      /* Features */
+      .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+        gap: 2rem;
+        padding: 4rem 2rem;
+        background: #f7f9fa;
+      }
+      .feature-card {
+        background: #fff;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        text-align: center;
+      }
+      .feature-card img { 
+        height: 60px; margin-bottom: 1rem; 
+    }
+      .feature-card h3 { 
+        margin-bottom: .5rem;
+     }
+      .feature-card p { 
+        font-size: .95rem; color: #555;
+     }
+
+      footer {
+        background: rgb(80,188,213);
+        color:white;
+        text-align: center;
+        padding: 1.5rem 2rem;
+        border-radius: 10px;
+        font-weight: bold;
+      }
