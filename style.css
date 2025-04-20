@@ -47,4 +47,65 @@ body {
     text-align: center;
     margin-top: 10px;
   }
+  @media (max-width: 480px) {
+    body {
+      padding: 1rem;
+      height: auto;
+      align-items: flex-start;
+    }
   
+    .login-container {
+      width: 100%;
+      max-width: 300px;
+      padding: 20px;
+      box-shadow: none;
+    }
+  
+    .login-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    input,
+    button {
+      font-size: 0.95rem;
+      padding: 10px;
+    }
+  
+    #message {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* 📱 Tablets: 481px to 768px */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .login-container {
+      width: 100%;
+      max-width: 400px;
+      padding: 25px 30px;
+    }
+  
+    .login-container h2 {
+      font-size: 1.7rem;
+    }
+  
+    input,
+    button {
+      font-size: 1rem;
+    }
+  }
+  
+  /* 💻 Desktop: min-width 769px */
+  @media (min-width: 769px) {
+    .login-container {
+      max-width: 450px;
+    }
+  
+    .login-container h2 {
+      font-size: 1.8rem;
+    }
+  
+    input,
+    button {
+      font-size: 1rem;
+    }
+  }
