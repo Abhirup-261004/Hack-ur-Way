@@ -6,7 +6,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     });
   });
 
-//   // simple contact alert
-//   document.getElementById('contactBtn').addEventListener('click', () => {
-//     alert('Thank you for reaching out! We will contact you shortly.');
-//   });
+  // simple contact alert
+  document.getElementById('contactBtn').addEventListener('click', () => {
+    window.location.href = "Contact.html";
+  });
