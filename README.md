@@ -1,5 +1,5 @@
-Care Ease
-# Smart Care, On Time! Every Time!
+# Care Ease
+Smart Care, On Time! Every Time!
 
 # Prerequisites
 #- A modern web browser (Chrome, Firefox, Edge)  
